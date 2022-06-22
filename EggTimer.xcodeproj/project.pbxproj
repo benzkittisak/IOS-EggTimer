@@ -13,6 +13,7 @@
 		E39DC1AD28618C60001ECF67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39DC1AB28618C60001ECF67 /* Main.storyboard */; };
 		E39DC1AF28618C61001ECF67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39DC1AE28618C61001ECF67 /* Assets.xcassets */; };
 		E39DC1B228618C61001ECF67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39DC1B028618C61001ECF67 /* LaunchScreen.storyboard */; };
+		E39DC1BA28618D02001ECF67 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E39DC1B928618D02001ECF67 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E39DC1AE28618C61001ECF67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E39DC1B128618C61001ECF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E39DC1B328618C61001ECF67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39DC1B928618D02001ECF67 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = "../../../Downloads/EggTimer-iOS13-master/EggTimer/alarm_sound.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E39DC1A428618C60001ECF67 /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				E39DC1B928618D02001ECF67 /* alarm_sound.mp3 */,
 				E39DC1A528618C60001ECF67 /* AppDelegate.swift */,
 				E39DC1A728618C60001ECF67 /* SceneDelegate.swift */,
 				E39DC1A928618C60001ECF67 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			files = (
 				E39DC1B228618C61001ECF67 /* LaunchScreen.storyboard in Resources */,
 				E39DC1AF28618C61001ECF67 /* Assets.xcassets in Resources */,
+				E39DC1BA28618D02001ECF67 /* alarm_sound.mp3 in Resources */,
 				E39DC1AD28618C60001ECF67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
